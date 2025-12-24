@@ -2,7 +2,7 @@ Built this more for myself as an aid to my FrameKeep project (which is on my git
 to see how the program reacted with my system over the day and across various tasks.
 However I see how people could use this.
 
-Simple script that logs the resource of use a certain process, by a user given PID
+Simple script that logs the resource use of a certain process, by a user given PID
 
 Instructions:
 
