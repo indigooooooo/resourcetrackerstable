@@ -12,7 +12,12 @@ Instructions:
 
 2. Double click ResourceTrackerStable.exe to open it, look through the list for your
    program (or find its PID in Task Manager details), type in the process's PID, and
-   after you hit enter it'll start logging the process. Thats it!
+   after you hit enter it'll start logging the process. Thats it! Feel free to delete this
+   readme after figuring the application out
+
+Average Disk Usage Statistics @ Log/5s
+- Average Disk Usage/hr ≈ 60 KB/hr
+- Average Disk Usage/24hr ≈ 1.4 MB/24hr
 
 Future fixes:
 
@@ -26,7 +31,7 @@ psutil → sees what your program is doing.
 
 time → waits between checks.
 
-os → saves files in the right place.
+os → saves log files in the right place.
 
 datetime → writes when the check happened.
 
