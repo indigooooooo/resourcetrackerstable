@@ -22,7 +22,11 @@ to monitor more than one process at a time.
 Dependencies explained:
 
 psutil → sees what your program is doing.
+
 time → waits between checks.
+
 os → saves files in the right place.
+
 datetime → writes when the check happened.
+
 uuid → makes every log file unique.
