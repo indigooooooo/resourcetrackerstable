@@ -16,7 +16,7 @@ Instructions:
    readme after figuring the application out
 
 Average Disk Usage Statistics @ Log/5s
-- Average Disk Usage/hr ≈ 60 KB/hr
+- Average Disk Usage/hr ≈ 60.62 KB/hr
 - Average Disk Usage/24hr ≈ 1.4 MB/24hr
 
 Future fixes:
