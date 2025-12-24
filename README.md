@@ -17,7 +17,8 @@ Instructions:
 Future fixes:
 
 Nothing needs to be "fixed" right now, however I would like to eventually add the option
-to monitor more than one process at a time.
+to monitor more than one process at a time, aswell as making the fixed 5 second log timer, 
+a customizable time.
 
 Dependencies explained:
 
