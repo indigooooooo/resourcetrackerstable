@@ -1,0 +1,22 @@
+v1.1.0 Changelog
+
+- Added Licensing
+- Set custom log location via command input
+- Log path saved to config.json for future runs
+- Automatically creates necessary directories if they don't exist
+- Organized logs and configs in Documents/Resource Tracker/
+- Added a fancy dependencies.bat file
+- Removed ~56% of lines of code
+- Combined multiple imports into a single line for cleaner code organization
+- Replaced `list_processes()` function with inline list comprehension
+- Removed `find_process_by_pid()` helper function, using inline try/except instead
+- Combined file operations. Log file now opened once in main loop instead of repeatedly
+- Added `MB` constant to eliminate repeated calculations
+- Simplified variable assignments and calculations throughout
+- Added visual separators (`===`) for better readability in console output
+- Improved process list formatting with right-aligned PIDs and visual separators
+- Enhanced console output with cleaner, more organized display
+- Streamlined input prompt for a smoother experience
+- Optimized file I/O by opening log file once in main loop context manager
+- More efficient process listing using list comprehension
+- Reduced function call overhead by inlining helper functions
