@@ -12,7 +12,7 @@ Simple script that logs the resource use of a certain process, by a user given P
 
 ==================================================================================================================================
 
-The default path for log folders is "C:\Users\YOU\Documents\Resource Tracker Logs"
+The default path for log folders is "C:\Users\YOU\Documents\Resource Tracker\Logs"
 
 Instructions for .exe users:
 
@@ -20,10 +20,10 @@ Instructions for .exe users:
    its lifetime.
 
 2. Double click ResourceTrackerStable.exe to open it, look through the list for your
-   program (or find its PID in Task Manager details), type in the process's PID, and
-   after you hit enter it'll start logging the process. You can do Ctrl+P in the console 
-   and paste your files path to change the path that logs go to. Thats it! Feel free to 
-   delete this readme, and every file besides .exe after figuring the application out.
+   program (or find its PID in Task Manager details), type in "1", followed by the process's 
+   PID, and after you hit enter it'll start logging the process. You can type "2" and paste a 
+   path to change the path that logs go to. Thats it! Feel free to delete this readme, and every 
+   file besides .exe after figuring the application out.
 
 Instructions for Python users:
 
@@ -42,6 +42,9 @@ Follow Step 1 above, and run the dependencies.bat file
 
     "python ResourceTrackerv1.1.0-stable.py"
 
+2. Type in "1", followed by the process's PID, and after you hit enter it'll start logging the 
+   process. You can type "2" and paste a path to change the path that logs go to. Thats it!
+
 ==================================================================================================================================
 
 Customization for Python users:
@@ -49,9 +52,9 @@ Customization for Python users:
 The only customization in this script is how often the script grabs your 
 process's information, and where the logs save to.
 
-To change the path file to where the logs go to, do Ctrl+P in the console 
-and paste your files path to change the path that logs go to. You can hit 
-enter to revert to the default path. Thats it!
+To change the path file to where the logs go to, type 2 in the console 
+and paste your files path to change the path that logs go to. You can type just 2
+to revert to the default path. Thats it!
 
 Change the parameter in ResourceTrackerv1.1.0-stable.py, under "LOG_INTERVAL", 
 and enter how many seconds you want in between logs.
